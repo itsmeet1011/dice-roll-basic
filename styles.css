@@ -1,0 +1,66 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.scroll__btn {
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #4ecca3;
+  padding: 1rem 3rem;
+  border-radius: 100px;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+
+  transition: all 0.2s;
+}
+
+.scroll__btn:hover {
+  background-color: #3ca582;
+  transform: translateY(-3px);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+}
+.scroll__btn:active {
+  transform: translateY(-1.5px);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
